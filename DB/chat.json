@@ -1,0 +1,20 @@
+[
+  {
+    "username": "albaro",
+    "_id": 1,
+    "content": "This is a first message",
+    "timestamp": "2/14/2023, 4:17:25 PM"
+  },
+  {
+    "username": "albaro",
+    "content": "This is a second message",
+    "_id": 2,
+    "timestamp": "2/14/2023, 4:32:29 PM"
+  },
+  {
+    "username": "random user",
+    "content": "hola leidy",
+    "_id": 3,
+    "timestamp": "3/1/2023, 5:33:43 PM"
+  }
+]

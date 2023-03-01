@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/index.js" type="module" defer></script>
+    <style>
+        .message-container{
+            display: flex;
+            flex-direction: column;
+        }
+        .user{
+            color: red;
+        }
+        .content{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-container">
+    </div>
+    <input class="box-message" type="text" placeholder="Just write..." />
+    <button class="send-message">Send Message</button>
+</body>
+</html>
